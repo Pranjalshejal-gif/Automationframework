@@ -1,0 +1,356 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; /* Add margin to separate header from content */
+    background-color: white;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toc h2 {
+    background-color: #6b8cb7;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc li {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold; /* Bold the content */
+    font-family: 'Arial', sans-serif; /* Ensure consistent font family */
+    border-left: 10px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.toc li:nth-child(1) { border-color: #6271b5; }
+.toc li:nth-child(2) { border-color: #dc3545; }
+.toc li:nth-child(3) { border-color: #17a2b8; }
+.toc li:nth-child(4) { border-color: #28a745; }
+.toc li:nth-child(5) { border-color: #6c757d; }
+.toc li:nth-child(6) { border-color: #fd7e14; }
+
+.requirements {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.requirements td {
+    padding: 15px;
+    border: 1px solid #c0bebe;
+    background-color: #f9f9f9;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.content2{
+         display: flex; 
+        justify-content: space-between;
+          margin-top: 30px; 
+         width:100%;  
+        max-width:1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+}
+.two-col{
+    display: flex;
+    justify-content: space-between;
+    position: relative;  /* Relative positioning for the vertical line */
+}
+.vertical-line{
+    width: 2px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.info {
+    width: 45%;
+}
+/*
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+ 
+} */
+.info h2{
+    
+    background-color: #6b8cb7;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+
+}
+
+.benefits {
+    width: 100%;
+    border-collapse: collapse;
+}
+.benefits tr {
+    background-color: #e7f3e7;
+    border: 1px solid #4CAF50;
+}
+
+.benefits td {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.workflow {
+    width: 45%;
+}
+
+.workflow-header h2 {
+    text-align: center;
+    background-color: #6b8cb7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.steps {
+    margin-top: 30px;
+}
+
+.step {
+    background-color: #f5f7fb;
+    border: 2px solid #6b8cb7;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.content3{
+    max-width: 1000px;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.logo1 img {
+    width: 100%;
+    height: auto;
+}
+.tool h2{
+    background-color: #6b8cb7;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+
+}
+.pre h2{
+    background-color: #6b8cb7;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+
+
+}
+.content4{
+    max-width: 1000px;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.roles-header {
+    width: 100%;
+    text-align: center; /* Center align the header text */
+    background-color: #6b8cb7; /* Match the header background to the table header */
+    color: white; /* Set text color to white */
+    padding: 10px 0; /* Add some vertical padding */
+    margin-bottom: 10px; /* Space between the header and table */
+}
+
+.table-container {
+    width: 100%; /* Ensure the table container takes full width */
+}
+
+.test-table {
+    width: 100%; /* Ensure the table takes full width */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+.test-table th,
+.test-table td {
+    padding: 10px; /* Add padding for table cells */
+    border: 1px solid #ddd; /* Border for table cells */
+    text-align: center; /* Left align text in cells */
+    color:#333;
+    font-weight: bold;
+}
+.test-table th{
+    padding: 10px; /* Add padding for table cells */
+    border: 1px solid #ddd; /* Border for table cells */
+    text-align: center; /* Left align text in cells */
+    color:#333;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.vdo{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.vdo-link{
+        text-align: center; /* Center align the video link */
+        margin-bottom: 20px; /* Space between video link and roles section */
+
+}
+.vdo-link h2{
+    font-weight: bold;
+    text-align: center;
+}
+.video-button {
+    display: inline-block; /* Make it an inline block for padding */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #2980b9; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.video-button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}
+.vtool h2{
+    
+        background-color: #6b8cb7;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+}
+.heading h3{
+    color:black;
+    padding: 5px;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .toc h2 {
+        font-size: 1.5rem;
+    }
+
+    .toc li {
+        font-size: 1rem;
+    }
+
+    .requirements td {
+        font-size: 1rem;
+    }
+} 
+
+
