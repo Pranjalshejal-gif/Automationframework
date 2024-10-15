@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Automation Framework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Sarvatra Technologies">
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="toc">
+            <h2>Table of Content</h2>
+            <ul>
+                <li>1. Pre-Requisite</li>
+                <li>2. Framework Introduction</li>
+                <li>3. Tools Used</li>
+                <li>4. Roles Involved</li>
+                <li>5. Demo Video of Testers Workflow</li>
+                <li>6. Demo Video of BA Workflow</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="pre">
+            <h2 class="title">PRE-REQUISITES & ROLES INVOLVED </h2>
+        </div>
+        <!-- <h2 class="title">ROLES INVOLVED</h2> -->
+        <table class="requirements">
+            <tr>
+                <td>1. JAVA – 21 or above</td>
+            </tr>
+            <tr>
+                <td>2. Jenkins user credentials: Will be shared by Automation Team</td>
+            </tr>
+            <tr>
+                <td>3. JIRA access of respective Project</td>
+            </tr>
+            <tr>
+                <td>4. XRAY - Client -ID and Secret Key</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="content2">
+        <div class="two-col">
+            <div class="info">
+                <h2>API testing can improve test coverage and efficiency, secure the system, and much more.</h2>
+                <table class="benefits">
+                    <tr>
+                        <td>1&nbsp;&nbsp; <b>Quicker Release</b></td>
+                    </tr>
+                    <tr>
+                        <td>2&nbsp;&nbsp; <b>Better Test Coverage</b></td>
+                    </tr>
+                    <tr>
+                        <td>3&nbsp;&nbsp; <b>Lower Maintenance to Do</b></td>
+                    </tr>
+                    <tr>
+                        <td>4&nbsp;&nbsp; <b>Faster Bug Fixes</b></td>
+                    </tr>
+                    <tr>
+                        <td>5&nbsp;&nbsp; <b>Reduced Testing Costs</b></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="workflow">
+                <div class="workflow-header">
+                    <h2>WORKFLOW</h2>
+                </div>
+                <div class="steps">
+                    <div class="step">Jenkins Job triggers JMeter test execution.</div>
+                    <div class="step">JMeter runs tests, collects data (response.request.errors).</div>
+                    <div class="step">If assertions are not as expected, JMeter can raise a bug in Jira using the REST
+                        API.</div>
+                    <div class="step">Upload the test results to Jira using the Xray plugin.</div>
+                    <div class="step">In Jira, defects can be created automatically or linked to the relevant test
+                        cases.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="content3">
+        
+          <hea class="header">
+             <div class="logo">
+                <img src="logo.png" alt="Sarvatra Technologies">
+            </div> 
+            <h1 class="title">Tools Used in Framework</h1>
+        </header>  
+        <div class="header">
+            <h1 class="title">Tools Used in Framework</h1>
+        </div>
+
+          <div class="circle">
+            
+            <div class="circle-item" style="--rotation: 0deg;"><img src="jira.png" alt="Jira Software"></div>
+            <div class="circle-item" style="--rotation: 45deg;"><img src="postman.png" alt="Postman"></div>
+            <div class="circle-item" style="--rotation: 90deg;"><img src="mysql.jpg" alt="MySQL"></div>
+            <div class="circle-item" style="--rotation: 135deg;"><img src="bat.jpg" alt="BAT"></div>
+            <div class="circle-item" style="--rotation: 180deg;"><img src="apache.jpg" alt="Apache"></div>
+            <div class="circle-item" style="--rotation: 225deg;"><img src="bas.jpg" alt="Bash"></div>
+            <div class="circle-item" style="--rotation: 270deg;"><img src="java.png" alt="Java"></div>
+            <div class="circle-item" style="--rotation: 315deg;"><img src="jenkins.jpg" alt="Jenkins"></div>
+        </div>
+
+
+    </section>  -->
+    <section class="content3">
+        <div class="tool">
+            <h2>Tools Used in Framework</h2>
+        </div>
+        <header class="header">
+            <div class="logo1">
+                <img src="pic.png" alt="Sarvatra Technologies">
+            </div>
+        </header>
+    </section>
+
+    <section class="content4">
+        <div class="roles">
+            <h2 class="roles-header">ROLES INVOLVED</h2>
+        </div>
+
+        <div class="table-container">
+
+            <table class="test-table">
+                <thead>
+                    <tr>
+                        <th>Automation Tester</th>
+                        <th>Manual Tester</th>
+                        <th>BA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Creates JMX files of respective POSTMAN collection</td>
+                        <td>1. Prepare TestData</td>
+                        <td>1. Create a TestPlan and upload DOU of Test Scenarios</td>
+                    </tr>
+                    <tr>
+                        <td>2. Integrates JIRA XRAY plugin</td>
+                        <td>2. Creates TestCases and upload CSV file on JIRA</td>
+                        <td>2. Verify and approve the test cases</td>
+                    </tr>
+                    <tr>
+                        <td>3. Creates JENKINS JOB</td>
+                        <td>3. Executes JENKINS JOB</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="vdo">
+        <div class="vtool">
+            <h2>Demo Video of Tester Workflow</h2>
+        </div>
+
+
+        <div class="vdo-link">
+            <h2>Step I: Test Case Preparation on jira</h2>
+            <a href="C:\Documentatioin\vdo-link\testcase-vdo.mp4" class="video-button">ROLE Of TESTER
+            </a>
+        </div>
+        <div class="vdo-link">
+            <h2>Step II: Execution of JENKINS Job</h2>
+            <a href="C:\Documentatioin\vdo-link\execution.mp4" class="video-button">Execution of jenkins job
+            </a>
+        </div>
+        <div class="vdo-link">
+            <h2>Step III: JENKINS Node Set-Up </h2>
+            <a href="C:\Documentatioin\vdo-link\node-setup.mp4" class="video-button">Node-SETUP
+            </a>
+        </div>
+    </section>
+    <section class="content4">
+        <div class="vtool">
+            <h2>FOLDER STRUCTURE PRODUCT-WISE</h2>
+        </div>
+        <div class="heading">
+            <h3>1.Back-up Reports takes the backup of files => Index.html,Aggregate.csv,Report.csv</h3>
+            <h3>2.CSV => Test Data files</h3>
+            <h3>3.Current-Reports => Report.csv,Aggregate.csv</h3>
+            <h3>4.JMX => JMX file</h3>
+            <h3>5.Reporter => Jar file to generate extent report</h3>
+
+        </div>
+        <div class="folder">
+            <img src="folder.png" alt="folder STRUCTURE" width="400" height="250">
+        </div>
+    </section>
+
+
+    <section class="vdo">
+        <div class="vtool">
+            <h2>Demo Video of BA Workflow</h2>
+        </div>
+
+
+        <div class="vdo-link">
+            <h2>Step I - Create Test Plan add required documents</h2>
+            <a href="C:\Documentatioin\vdo-link\testplan.mp4" class="video-button">ROLE Of BA
+            </a>
+        </div>
+        <div class="vdo-link">
+            <h2>Step II: Step II - Verify and Approve the TestCases </h2>
+            <a href="C:\Documentatioin\vdo-link\Approve.mp4" class="video-button">Role Of BA
+            </a>
+        </div>
+
+    </section>
+
+    <section class="content4">
+        <header class="header">
+            <div class="logo">
+                <img src="thankyou.png" alt="Sarvatra Technologies">
+            </div>
+        </header>
+    </section>
+
+ <footer class="footer">
+        <p>&copy; 2012-2024, SARVATRA TECHNOLOGIES PVT. LTD. PRIVATE & CONFIDENTIAL. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+
+</html>
